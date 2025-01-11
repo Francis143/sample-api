@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "my-express-app": "file:"
+    "my-express-app": "file:",
+    "node": "^22.13.0"
   }
 }
