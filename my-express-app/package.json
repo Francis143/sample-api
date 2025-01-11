@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -13,6 +16,7 @@
   "dependencies": {
     "express": "^4.21.2",
     "my-express-app": "file:",
-    "node": "^22.13.0"
+    "node": "^22.13.0",
+    "nodemon": "^3.1.9"
   }
 }
